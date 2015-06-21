@@ -12,4 +12,4 @@ RUN curl -s get.gvmtool.net | bash
 
 RUN ["/bin/bash", "-c", "source /root/.gvm/bin/gvm-init.sh"]
 RUN echo "gvm_suggestive_selfupdate=false" >> /root/.gvm/etc/config
-RUN ["/bin/bash", "-c", "-l", "gvm install grails 3.0.2"]
+RUN ["/bin/bash", "-c", "-l", "gvm install grails 2.4.4"]
